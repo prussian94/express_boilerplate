@@ -1,0 +1,31 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "boilerplate code for express app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev -r tsconfig-paths/register src/app.ts",
+    "start": "ts-node -r tsconfig-paths/register src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prussian94/express_boilerplate.git"
+  },
+  "author": "Hakan APOHAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prussian94/express_boilerplate/issues"
+  },
+  "homepage": "https://github.com/prussian94/express_boilerplate#readme",
+  "dependencies": {
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.3"
+  }
+}
