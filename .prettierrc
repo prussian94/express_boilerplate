@@ -1,8 +1,8 @@
 {
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "useTabs": false,
-    "endOfLine": "auto"
-  }
-  
+	"semi": true,
+	"singleQuote": true,
+	"tabWidth": 2,
+	"useTabs": true,
+	"ignoreIndentation": true,
+	"endOfLine": "auto"
+}
